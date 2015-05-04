@@ -1,0 +1,12 @@
+[submodule "appstack/irods-icat-v4.0.3"]
+	path = appstack/irods-icat-v4.0.3
+	url = https://github.com/mjstealey/appstack-irods.git
+[submodule "appstack/postgresql-v9.3.6"]
+	path = appstack/postgresql-v9.3.6
+	url = https://github.com/mjstealey/appstack-postgresql.git
+[submodule "appstack/setup-postgresql-v9.3.6"]
+	path = appstack/setup-postgresql-v9.3.6
+	url = https://github.com/mjstealey/appstack-setup-postgresql.git
+[submodule "appstack/setup-irods-icat-v4.0.3"]
+	path = appstack/setup-irods-icat-v4.0.3
+	url = https://github.com/mjstealey/appstack-setup-irods.git
