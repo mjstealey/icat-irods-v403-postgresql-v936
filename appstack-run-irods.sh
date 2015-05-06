@@ -7,6 +7,9 @@ echo "*** RUN SCRIPT appstack-run-irods.sh ***"
 
 APPSTACK_PATH=${PWD}'/appstack'
 
+echo "*** update github submodules ***"
+git submodule init && git submodule update
+
 # build data image
 echo "*** docker build -t appstack-data . ***"
 docker build -t appstack-data .
